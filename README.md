@@ -1,7 +1,6 @@
 # COURSERA: BUILDING R PACKAGES
-Peer-graded Assignment   
+
 Danny Park   
-danincali@gmail.com
 GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007   
 
 [![Build Status](https://travis-ci.org/dannyjwpark/FARS.svg?branch=master)](https://travis-ci.org/dannyjwpark/FARS)
@@ -13,33 +12,12 @@ GitHub:  https://github.com/dannyjwpark/FARS
 
 ## Data Source
 
-The functions will be using data from the US National Highway Traffic Safety
+Data originated from: US National Highway Traffic Safety
 Administration's [Fatality Analysis Reporting
 System](https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars),
-which is a nationwide census providing the American public yearly data regarding
-fatal injuries suffered in motor vehicle traffic crashes.
-
-## Review Criteria
-
-For this assignment you'll submit a link to the [GitHub repository](https://github.com/dannyjwpark/FARS) which contains
-your package. This assessment will ask reviewers the following questions:
-
-* Does this package contain the correct [R file(s) under the R/ directory](https://github.com/dannyjwpark/FARS/tree/master/R)?   
-* Does this package contain a
-[man/](https://github.com/dannyjwpark/FARS/tree/master/man) with directory
-corresponding documentation files?
-* Does this package contain a
-[vignette](https://github.com/dannyjwpark/FARS/blob/master/vignettes/fars.Rmd)
-which provides a meaningful description of the package and how it should be
-used?
-* Does this package have at least one test included in the [tests/](https://github.com/dannyjwpark/FARS/tree/master/tests/testthat) directory?
-* Does this package have a [NAMESPACE](https://github.com/dannyjwpark/FARS/blob/master/NAMESPACE) file?
-* Does the README.md file for this directory have a [Travis badge](https://travis-ci.org/dannyjwpark/FARS)?
-* Is the build of this package passing on [Travis badge](https://travis-ci.org/dannyjwpark/FARS)?
-* Are the build logs for this package on [Travis badge](https://travis-ci.org/dannyjwpark/FARS) free of any errors, warnings, or notes?
 
 
-## Links:
+## Reference Links:
 * [Writing an R package from scratch](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)    
 * [Github: roxygen2](https://github.com/klutometis/roxygen#roxygen2)   
 * [Common `roxygen2` tags](https://bookdown.org/rdpeng/RProgDA/documentation.html#common-roxygen2-tags)
