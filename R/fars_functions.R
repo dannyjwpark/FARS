@@ -3,7 +3,6 @@
 #  Peer-graded Assignment
 #  File: fars_functions.R
 #  (c) 2020 - Danny Park
-#  email: danincali@gmail.com
 #  GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
 #  ---------------------------------------------------------------------------
 
@@ -125,7 +124,7 @@ fars_summarize_years <- function(years) {
   dat_list <- fars_read_years(years)
   dplyr::bind_rows(dat_list) %>%
     dplyr::group_by("year", "MONTH") %>%
-    dplyr::summarize(n = "n()") 
+    dplyr::summarize(n = "n()")
 }
 
 #' Display accidents map by state and year
@@ -223,4 +222,3 @@ fars_map_state <- function(state.num, year) {
     graphics::points(LONGITUD, LATITUDE, pch = 46)
   })
 }
-
