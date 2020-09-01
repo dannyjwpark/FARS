@@ -1,5 +1,5 @@
 library(testthat)
 library(fars)
 
-# testing check
+Sys.setenv("R_TESTS" = "")
 test_check("fars")
