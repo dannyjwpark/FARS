@@ -1,4 +1,4 @@
-# COURSERA: BUILDING R PACKAGES
+# Fatality Analysis Reporting System (FARS)
 
 Danny Park   
 GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007   
