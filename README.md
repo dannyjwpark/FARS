@@ -3,7 +3,7 @@
 Danny Park   
 GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007   
 
-[![Build Status](https://travis-ci.org/dannyjwpark/FARS.svg?branch=master)](https://travis-ci.org/dannyjwpark/FARS)
+[![Build Status](https://travis-ci.org/dannyjwpark/FARS.svg?branch=master)](https://travis-ci.org/dannyjwpark/FARS.svg?branch=master)
 
 
 ## Package Description
