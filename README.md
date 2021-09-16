@@ -3,7 +3,7 @@
 Danny Park   
 GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007   
 
-[![Build Status](https://travis-ci.org/dannyjwpark/FARS.svg?branch=master)](https://app.travis-ci.com/dannyjwpark/SoccerHeatTracker.svg?branch=main)
+[![Build Status](https://travis-ci.org/dannyjwpark/FARS.svg?branch=master)](https://app.travis-ci.com/dannyjwpark/FARS.svg?branch=master)
 
 
 ## Package Description
