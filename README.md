@@ -5,10 +5,6 @@ GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
 
 [![Build Status](https://travis-ci.org/dannyjwpark/FARS.svg?branch=master)](https://travis-ci.org/dannyjwpark/FARS)
 
-## Create an Example Package in R
-
-Package: fars
-GitHub:  https://github.com/dannyjwpark/FARS
 
 ## Data Source
 
