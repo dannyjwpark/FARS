@@ -6,6 +6,50 @@ GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
 [![Build Status](https://travis-ci.org/dannyjwpark/FARS.svg?branch=master)](https://travis-ci.org/dannyjwpark/FARS)
 
 
+# Package Description
+
+`FARS` package reads and plots Fatality Analysis Reporting System (FARS) data 
+from the [National Highway Traffic Safety Administration](https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars).
+
+[FARS](https://en.wikipedia.org/wiki/Fatality_Analysis_Reporting_System) is a nationwide census, providing the American public yearly data, regarding fatal injuries suffered in motor vehicle traffic crashes.
+
+
+## Load Packages
+
+```{r}
+library(fars)
+library(maps)
+```
+
+
+## Included data
+
+Data files included within the package are:
+
+```{r}
+list.files(system.file("extdata", package = "fars"))
+```
+
+
+## Package Functions
+
+### Function `make_filename`
+
+This function returns file name and path to the data files:
+
+```{r}
+yr <- 2015
+make_filename(yr)
+```
+
+### Function `fars_read_years`
+
+Ancillary function used by `fars_summarize_years`
+
+```{r}
+fars_read_years(2013)
+```
+
 ## Data Source
 
 Data originated from: US National Highway Traffic Safety
