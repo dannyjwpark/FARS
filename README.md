@@ -6,7 +6,7 @@ GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
 [![Build Status](https://travis-ci.org/dannyjwpark/FARS.svg?branch=master)](https://travis-ci.org/dannyjwpark/FARS)
 
 
-# Package Description
+## Package Description
 
 `FARS` package reads and plots Fatality Analysis Reporting System (FARS) data 
 from the [National Highway Traffic Safety Administration](https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars).
